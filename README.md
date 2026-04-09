@@ -41,6 +41,12 @@ Stop ping → wait 10 sec → flow removed
 Continuous ping → flow removed after 30 sec 
 
 
+## Controller Running
+![Controller](Screenshots/controller.png)
+
+## Mininet Topology
+![Mininet](Screenshots/mininet.png)
+
 ## Flow Table Before Timeout
 ![Before](Screenshots/before_timeout.png)
 
@@ -48,6 +54,9 @@ Flow rule disappears after 10 seconds of inactivity
 
 ## Flow Table After Timeout
 ![After](Screenshots/after_timeout.png)
+
+## Ping Output
+![Ping](Screenshots/ping.png)
 
 
 # Expected Output 
