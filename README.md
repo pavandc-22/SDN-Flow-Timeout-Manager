@@ -38,7 +38,16 @@ h1 ping h2 → flow installed
 -- Test 2: Idle Timeout  
 Stop ping → wait 10 sec → flow removed  
 -- Test 3: Hard Timeout  
-Continuous ping → flow removed after 30 sec  
+Continuous ping → flow removed after 30 sec 
+
+
+## Flow Table Before Timeout
+![Before](Screenshots/before_timeout.png)
+
+Flow rule disappears after 10 seconds of inactivity  
+
+## Flow Table After Timeout
+![After](Screenshots/after_timeout.png)
 
 
 # Expected Output 
