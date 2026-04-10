@@ -62,6 +62,9 @@ Flow rule disappears after 10 seconds of inactivity
 ## Ping Output
 ![Ping](Screenshots/ping.png)
 
+## iperf Output  
+![iperf](Screenshots/iperf.png)  
+
 
 # Expected Output 
 Flow rules appear and disappear based on timeout
