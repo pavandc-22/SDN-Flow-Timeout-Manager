@@ -34,12 +34,15 @@ Single switch (s1) with 3 hosts (h1, h2, h3)
 
 
 # Testing Scenarios:
--- Test 1: Normal Communication  
+-- Test 1 (Latency testing) : Normal Communication  
 h1 ping h2 → flow installed  
 -- Test 2: Idle Timeout  
 Stop ping → wait 10 sec → flow removed  
 -- Test 3: Hard Timeout  
-Continuous ping → flow removed after 30 sec 
+Continuous ping → flow removed after 30 sec  
+-- Test 4(Throughput Test):  
+mininet> h2 iperf -s &  
+mininet> h1 iperf -c h2  
 
 
 ## Controller Running
