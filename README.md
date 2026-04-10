@@ -1,4 +1,8 @@
 # SDN-Flow-Timeout-Manager
+Course: COMPUTER NETWORKS  
+Student Name: Pavan D C  
+Emulation Environment: Mininet  
+Controller: POX  
 
 
 # Problem Statement:
@@ -24,7 +28,7 @@ Single switch (s1) with 3 hosts (h1, h2, h3)
 
 
 # How to Run:
--Run POX  
+-Run Controller  
  "./pox.py misc.timeout_manager"  
 
 -Run Mininet  
